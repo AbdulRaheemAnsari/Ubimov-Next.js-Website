@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import styles from './howitwork.module.css';
 import { WorkCard } from '../WorksCard/WorkCard';

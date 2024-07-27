@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import styles from './ourvehicles.module.css';
 import { CarCard } from '../CarCards/CarCard';

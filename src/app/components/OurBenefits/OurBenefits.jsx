@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import styles from './ourbenefits.module.css';
 import { BenefitsCard } from '../BenefitsCard/BenefitsCard';

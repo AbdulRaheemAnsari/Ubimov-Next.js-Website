@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import styles from './fotter.module.css';
 import { FaFacebook } from "react-icons/fa";
