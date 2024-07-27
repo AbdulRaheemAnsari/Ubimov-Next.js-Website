@@ -12,9 +12,9 @@ export const OurVehicles = () => {
           <p>We have a wide range of rental vehicles so you can start earning quickly without needing to use your own vehicle.</p>
         </div>
         <div className={styles.car_cards_section}>
-          <CarCard img={"https://ubimov.com/_next/image?url=%2Fimages%2Fuber1.webp&w=640&q=100"} heading={"UberX | € 230 /week"} />
-          <CarCard img={"https://ubimov.com/_next/image?url=%2Fimages%2Fuber2.webp&w=640&q=100"} heading={"UberXL | € 275 /week"} />
-          <CarCard img={"https://ubimov.com/_next/image?url=%2Fimages%2Fuber3.webp&w=640&q=100"} heading={"Uber Green | € 325 /week"} />
+          <CarCard img={"/image/car1.webp"} heading={"UberX | € 230 /week"} />
+          <CarCard img={"/image/car2.webp"} heading={"UberXL | € 275 /week"} />
+          <CarCard img={"/image/car3.webp"} heading={"Uber Green | € 325 /week"} />
         </div>
         <div className={styles.joinustoday_button}>
           <Button2 text={"Join us today"} />

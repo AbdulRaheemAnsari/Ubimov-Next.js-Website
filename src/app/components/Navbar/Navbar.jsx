@@ -20,13 +20,15 @@ export const Navbar = () => {
         setMenu(false);
     }
 
+    
+
 
     return (
         <>
             <nav className={styles.nav}>
                 <div className={styles.logo}>
                     {/* <img className='cursor-pointer' src="https://ubimov.com/_next/static/media/logo.f39f1d07.svg" alt="Logo" /> */}
-                    <Image className='cursor-pointer' src="https://ubimov.com/_next/static/media/logo.f39f1d07.svg" />
+                    <Image width={330} height={130} src="/image/logo.svg" alt="image" />
                 </div>
                 <div className={styles.menu}>
                     <div className={styles.lilinks}>

@@ -7,11 +7,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const Fotter = () => {
+
+
+
     return (
         <div className={styles.fotter}>
             <div className={styles.top}>
-                {/* <img src="https://ubimov.com/_next/static/media/logolight.8deab4d3.svg" alt="" /> */}
-                <Image src="https://ubimov.com/_next/static/media/logolight.8deab4d3.svg" />
+                <Image width={40} height={40} src="/image/fotterlogo.svg" alt='fotter' />
                 <div className={styles.text}>
                     <div className={styles.contact}>
                         <h1>CONTACT</h1>

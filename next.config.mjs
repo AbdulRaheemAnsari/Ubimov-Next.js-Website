@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: ['ubimov.com'], // domain URL se scheme (https://) hata dein
+  },
+};
 
 export default nextConfig;

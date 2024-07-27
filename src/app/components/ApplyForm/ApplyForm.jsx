@@ -96,7 +96,7 @@ export const ApplyForm = () => {
                 </div>
                 <div className={styles.image}>
                     {/* <img src="" alt="" /> */}
-                    <Image src="https://ubimov.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontact.df32b883.webp&w=828&q=100" />
+                    <Image width={700} height={300} src="/image/formimg.webp" alt='heroimage' />
                 </div>
             </div>
         </>

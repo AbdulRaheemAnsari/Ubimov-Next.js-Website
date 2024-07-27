@@ -4,6 +4,7 @@ import { Button } from '../Button/Button';
 import Image from 'next/image';
 
 export const Hero = () => {
+
     return (
         <>
             <div className={styles.hero_container}>
@@ -18,8 +19,7 @@ export const Hero = () => {
                 </div>
                 <div className={styles.image_section}>
                     <div className={styles.image}>
-                        {/* <img src="https://ubimov.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.bb9d7d60.webp&w=3840&q=75" alt="" /> */}
-                        <Image src="https://ubimov.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.bb9d7d60.webp&w=3840&q=75" />
+                        <Image width={1000} height={550} src="/image/heroimg.webp" alt='hero' />
                     </div>
                 </div>
             </div>
