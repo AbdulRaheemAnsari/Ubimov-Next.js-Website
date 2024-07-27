@@ -14,7 +14,6 @@ import { About } from "./components/About/About";
 
 import dynamic from 'next/dynamic';
 
-const MyComponent = dynamic(() => import('../components/MyComponent'), { ssr: false });
 export default function Home() {
   const scrollRef = useRef(null);
 
