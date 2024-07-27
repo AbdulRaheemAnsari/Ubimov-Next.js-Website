@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 import styles from './applyform.module.css';
 import { MdOutlineArrowOutward } from "react-icons/md";
 
@@ -10,6 +11,7 @@ export const ApplyForm = () => {
         email: "",
         number: "",
     });
+
 
     const handleButtonClick = (button) => {
         setActiveButton(button);
@@ -23,6 +25,7 @@ export const ApplyForm = () => {
             alert("Form submitted successfully");
         }
     }
+
 
     return (
         <>

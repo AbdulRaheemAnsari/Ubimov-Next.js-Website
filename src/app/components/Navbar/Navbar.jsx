@@ -1,13 +1,15 @@
+"use client"
 import { Button } from '../Button/Button';
 import styles from './navbar.module.css';
 import { Link as ScrollLink } from 'react-scroll';
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 export const Navbar = () => {
     const [menu, setMenu] = useState(false);
+
 
     const openMenu = () => {
         setMenu((prev) => !prev);
@@ -16,6 +18,7 @@ export const Navbar = () => {
     const menuclose = () => {
         setMenu(false);
     }
+
 
     return (
         <>
@@ -53,21 +56,21 @@ export const Navbar = () => {
                     </div>
                     <div className={` ${styles.menu_container} ${menu ? styles.opencontainer : ""}`}>
                         <div className={styles.meneresponsive}>
-                        <ScrollLink to="about_section" smooth={true} duration={900} offset={-70}>
-                            <h1 onClick={menuclose}>About us</h1>
-                        </ScrollLink>
-                        <ScrollLink to="benefits_section" smooth={true} duration={900} offset={-70}>
-                            <h1 onClick={menuclose}>Benefits</h1>
-                        </ScrollLink>
-                        <ScrollLink to="work_section" smooth={true} duration={900} offset={-70}>
-                            <h1 onClick={menuclose}>Process</h1>
-                        </ScrollLink>
-                        <ScrollLink to="ourbenefits_section" smooth={true} duration={900} offset={-70}>
-                            <h1 onClick={menuclose}>Benefits</h1>
-                        </ScrollLink>
-                        <ScrollLink to="vehicles_section" smooth={true} duration={900} offset={-70}>
-                            <h1 onClick={menuclose}>Vehicles</h1>
-                        </ScrollLink>
+                            <ScrollLink to="about_section" smooth={true} duration={900} offset={-70}>
+                                <h1 onClick={menuclose}>About us</h1>
+                            </ScrollLink>
+                            <ScrollLink to="benefits_section" smooth={true} duration={900} offset={-70}>
+                                <h1 onClick={menuclose}>Benefits</h1>
+                            </ScrollLink>
+                            <ScrollLink to="work_section" smooth={true} duration={900} offset={-70}>
+                                <h1 onClick={menuclose}>Process</h1>
+                            </ScrollLink>
+                            <ScrollLink to="ourbenefits_section" smooth={true} duration={900} offset={-70}>
+                                <h1 onClick={menuclose}>Benefits</h1>
+                            </ScrollLink>
+                            <ScrollLink to="vehicles_section" smooth={true} duration={900} offset={-70}>
+                                <h1 onClick={menuclose}>Vehicles</h1>
+                            </ScrollLink>
                         </div>
 
                         <div className={styles.link_container}>
