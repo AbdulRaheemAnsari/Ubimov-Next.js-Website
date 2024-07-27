@@ -1,0 +1,230 @@
+.benefits_section{
+    width: 100%;
+    height: 70vh;
+    background-color: #E3E7DF;
+    padding: 4rem 4rem;
+    display: flex;
+}
+
+.left_section{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    /* background-color: rgb(160, 140, 114); */
+}
+
+.left_section h1{
+    color: #181816;
+    font-family: 'Neue Montreal';
+    font-size: 3.4rem;
+    font-weight: 600;
+    width: 100%;
+    line-height: 3rem;
+}
+
+.right_section{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* flex-wrap: wrap; */
+    padding: 0rem;
+    gap: 0.4rem;
+    /* background-color: rgb(206, 169, 120); */
+}
+
+
+@media (max-width: 1024px){
+
+    .benefits_section{
+        width: 100%;
+        height: auto;
+        background-color: #E3E7DF;
+        padding: 4rem 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .left_section{
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* background-color: rgb(160, 140, 114); */
+    }
+
+    .right_section{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        /* flex-wrap: wrap; */
+        padding: 0rem;
+        gap: 1.4rem;
+        /* background-color: rgb(206, 169, 120); */
+    }
+}
+
+@media (max-width: 770px) {
+    .benefits_section{
+        width: 100%;
+        height: auto;
+        background-color: #E3E7DF;
+        padding: 4rem 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .left_section{
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* background-color: rgb(160, 140, 114); */
+    }
+
+    .right_section{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        /* flex-wrap: wrap; */
+        padding: 0rem;
+        gap: 1.4rem;
+        /* background-color: rgb(206, 169, 120); */
+    }
+
+    .left_section h1{
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-size: 3rem;
+        width: 100%;
+        line-height: 3rem;
+        /* letter-spacing: -0.1rem; */
+    }
+}
+
+@media (max-width: 700px){
+    .benefits_section{
+        width: 100%;
+        height: auto;
+        background-color: #E3E7DF;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .left_section{
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* background-color: rgb(160, 140, 114); */
+    }
+
+    .right_section{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        /* flex-wrap: wrap; */
+        padding: 0rem;
+        gap: 1.4rem;
+        /* background-color: rgb(206, 169, 120); */
+    }
+
+    .left_section h1{
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-size: 2.4rem;
+        width: 100%;
+        line-height: 2rem;
+        /* letter-spacing: -0.1rem; */
+    }
+}
+
+@media (max-width: 575px){
+
+    .benefits_section{
+        width: 100%;
+        height: auto;
+        background-color: #E3E7DF;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .left_section{
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* background-color: rgb(160, 140, 114); */
+    }
+
+    .right_section{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        /* flex-wrap: wrap; */
+        padding: 0rem;
+        gap: 1.4rem;
+        /* background-color: rgb(206, 169, 120); */
+    }
+
+    .left_section h1{
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-size: 2.2rem;
+        width: 100%;
+        line-height: 2rem;
+        /* letter-spacing: -0.1rem; */
+    }
+    
+}
+
+@media (max-width: 480px){
+
+    .benefits_section{
+        width: 100%;
+        height: auto;
+        background-color: #E3E7DF;
+        padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .left_section h1{
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-size: 2rem;
+        width: 100%;
+        line-height: 1.8rem;
+    }
+    
+}
+
+@media (max-width: 365px){
+
+    .left_section h1{
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-size: 1.8rem;
+        width: 100%;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width: 280px){
+
+    .left_section h1{
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-size: 1.6rem;
+        width: 100%;
+        line-height: 1.8rem;
+    }
+    
+}

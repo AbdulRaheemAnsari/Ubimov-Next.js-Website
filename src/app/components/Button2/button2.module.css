@@ -1,0 +1,90 @@
+.driverbutton2 button {
+    background-color: #94E085;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #151811;
+    font-family: 'Neue montreal';
+    font-weight: 500;
+}
+
+.icon2{
+    background-color: #151811;
+    border-radius: 50px;
+    padding: 0.2rem;
+    color: #E3E7DF;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .driverbutton2 button {
+        
+        padding: 0.8rem 1.4rem;
+        font-size: 1.1rem;    
+        gap: 0.8rem;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .driverbutton2 button {
+        
+        padding: 0.8rem 1rem;
+        font-size: 1rem;    
+        gap: 0.8rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .driverbutton2 button {
+        
+        padding: 0.8rem 1rem;
+        font-size: 1rem;    
+        gap: 0.8rem;
+    }
+
+    .icon2{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 365px) {
+
+    .driverbutton2 button {
+        
+        padding: 0.8rem 1rem;
+        font-size: 1rem;    
+        gap: 0.6rem;
+    }
+
+    .icon2{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media (max-width: 280px) {
+
+    .driverbutton2 button {
+        
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;    
+        gap: 0.6rem;
+    }
+
+    .icon2{
+        font-size: 1.2rem;
+    }
+    
+}

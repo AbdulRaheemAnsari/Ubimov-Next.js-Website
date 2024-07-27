@@ -1,0 +1,399 @@
+.ApplyForm{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 8rem 4rem;
+    display: flex;
+    background-color: #E3E7DF;
+}
+
+.form{
+    width: 55%;
+    height: auto;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+
+.heading{
+    width: 100%;
+    height: auto;
+}
+
+.heading h1{
+    color: #181816;
+    font-family: 'Neue Montreal';
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.heading p{
+    color: #474747;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    width: 70%;
+    letter-spacing: -0.1rem;
+    font-family: 'Neue montreal' sans-serif;
+}
+
+.form_container{
+    width: 100%;
+    height: auto;
+    /* background-color: #474747; */
+    overflow: hidden;
+    position: relative;
+}
+
+.form_container label{
+    color: #181816;
+    font-size: 1.4rem;
+    font-family: 'Neue Montreal';
+    font-weight: 500;
+}
+
+.form_container input{
+    width: 18rem;
+    padding: 0.4rem 0.1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #B6B8B3;
+    background: none;
+    color: #5C5C5B;
+    font-family: 'Neue Montreal';
+}
+
+.form_container input::placeholder{
+    color: #B6B8B3;
+    font-weight: 500;
+    font-family: 'Neue Montreal';
+}
+.form_container{
+    width: 100%;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 0rem;
+}
+
+.name, .email, .number{
+    display: flex;
+    flex-direction: column;
+}
+
+.number input{
+    width: 38rem;
+}
+
+.TVDE_container{
+    width: 100%;
+    height: auto;
+    padding: 0.8rem 0rem;
+}
+
+.TVDE_container h1{
+    font-size: 1.4rem;
+    color: #181816;
+    font-family: 'Neue Montreal';
+    font-weight: 500;
+}
+
+.button{
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem 0rem;
+}
+.button button{
+    background-color: #90928d;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-family: 'Neue Montreal';
+    font-weight: 500;
+}
+
+
+.image{
+    width: 45%;
+    height: 90%;
+    position: relative;
+    /* background-  color: aqua; */
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.button button.active{
+    background-color: #151811;
+}
+
+.driverbutton button {
+    background-color: #151811;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: 'Neue montreal';
+    font-weight: 500;
+}
+
+.icon{
+    background-color: #94E085;
+    border-radius: 50px;
+    padding: 0.2rem;
+    color: #151811;
+    font-size: 1.6rem;
+}
+
+
+@media (max-width: 1024px){
+
+    .ApplyForm{
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 6rem 3rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column-reverse;
+        background-color: #E3E7DF;
+    }
+
+    .image{
+        width: 100%;
+        height: 80%;
+        position: relative;
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+    
+    .form{
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* background-color: antiquewhite; */
+    }
+
+    .form_container input{
+        width: 58rem;
+        padding: 0.4rem 0.1rem;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #B6B8B3;
+        background: none;
+        color: #5C5C5B;
+        font-family: 'Neue Montreal';
+    }
+
+
+    .heading h1{
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-size: 3.4rem;
+        
+    }
+    
+    .heading p{
+        color: #474747;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+        width: 60%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+}
+
+@media (max-width: 700px){
+
+    .ApplyForm{
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 6rem 2rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column-reverse;
+        background-color: #E3E7DF;
+    }
+
+    .image{
+        width: 100%;
+        height: 80%;
+        position: relative;
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+
+
+    .heading h1{
+        
+        font-family: 'Neue Montreal';
+        font-size: 2.4rem;
+        
+    }
+    
+    .heading p{
+        color: #474747;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        width: 60%;
+        letter-spacing: -0.06rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .form_container label{
+        font-size: 1.2rem;  
+    }
+
+
+    .TVDE_container h1{
+        font-size: 1.2rem;
+    }
+    
+    .button button{
+        padding: 0.4rem 1.4rem;
+    }
+} 
+  
+@media (max-width: 480px){
+
+    .ApplyForm{
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 6rem 1rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column-reverse;
+        background-color: #E3E7DF;
+    }
+
+    .image{
+        width: 100%;
+        height: 80%;
+        position: relative;
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+
+
+    .heading h1{
+        
+        font-family: 'Neue Montreal';
+        font-size: 2rem;
+    }
+    
+    .heading p{
+        color: #474747;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        width: 70%;
+        letter-spacing: -0.06rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .form_container label{
+        font-size: 1.2rem; 
+        padding-bottom: 0.4rem; 
+    }
+
+
+    .TVDE_container h1{
+        font-size: 1.2rem;
+    }
+    
+    .button button{
+        padding: 0.4rem 1.2rem;
+    }
+}
+
+@media (max-width: 365px){
+
+    .image{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+
+
+    .heading h1{
+        
+        font-family: 'Neue Montreal';
+        font-size: 1.8rem;
+    }
+    
+    .heading p{
+        color: #474747;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        width: 90%;
+        letter-spacing: -0.06rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .form_container label{
+        font-size: 1.1rem; 
+        padding-bottom: 0.4rem; 
+    }
+
+
+    .TVDE_container h1{
+        font-size: 1rem;
+    }
+    
+    .button button{
+        padding: 0.2rem 1rem;
+    }
+   
+}
+
+@media (max-width: 280px){
+
+    .image{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+
+
+    .heading h1{
+        
+        font-family: 'Neue Montreal';
+        font-size: 1.6rem;
+    }
+    
+    .heading p{
+        color: #474747;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        width: 100%;
+        letter-spacing: -0.06rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .form_container label{
+        font-size: 1rem; 
+        padding-bottom: 0.2rem; 
+    }
+
+
+    .TVDE_container h1{
+        font-size: 1rem;
+    }
+    
+    .button button{
+        padding: 0.2rem 1rem;
+    }
+    
+}

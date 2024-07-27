@@ -1,0 +1,300 @@
+
+.ourbenefits{
+    width: 100%;
+    height: auto;
+    background-color: #151811;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 8rem 4rem;
+    display: flex;
+    /* position: relative; */
+}
+
+.text_section{
+    width: 40%;
+    height: auto;
+    position: relative;
+}
+
+.text_section img{
+    opacity: 0.02;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text_section h1{
+    color: #E3E7DF;
+    font-family: 'Neue Montreal';
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.text_section p{
+    color: #A9ABA6;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    width: 80%;
+    letter-spacing: -0.1rem;
+    font-family: 'Neue montreal' sans-serif;
+}
+
+.joinusbutton{
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+}
+
+.cart_section{
+    width: 60%;
+    height: auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
+
+@media (max-width: 1024px){
+
+    .ourbenefits{
+        width: 100%;
+        height: auto;
+        background-color: #151811;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        padding: 8rem 3rem;
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+    }
+
+    .text_section{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .text_section img{
+        opacity: 0.02;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 3.4rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.6rem;
+        line-height: 2.3rem;
+        width: 50%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .cart_section{
+        width: 100%;
+        height: auto;
+        display: grid;
+        gap: 2rem;
+        margin-top: 8rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 770px) {
+    
+    .ourbenefits{
+        width: 100%;
+        height: auto;
+        background-color: #151811;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        padding: 8rem 3rem;
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+    }
+
+    .text_section{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .text_section img{
+        opacity: 0.02;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 3rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        width: 60%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .cart_section{
+        width: 100%;
+        height: auto;
+        display: grid;
+        gap: 2rem;
+        margin-top: 8rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px){
+    
+    .ourbenefits{
+        width: 100%;
+        height: auto;
+        background-color: #151811;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        padding: 8rem 2rem;
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+    }
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 2.4rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        width: 60%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+}
+
+@media (max-width: 575px){
+    .text_section{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .text_section img{
+        opacity: 0.02;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 2.2rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        width: 70%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .cart_section{
+        width: 100%;
+        height: auto;
+        display: grid;
+        gap: 2rem;
+        margin-top: 8rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px){
+
+    .ourbenefits{
+        width: 100%;
+        height: auto;
+        background-color: #151811;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        padding: 8rem 1rem;
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+    }
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 2rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding-top: 1rem;
+        width: 80%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+}
+
+@media (max-width: 365px){
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 1.8rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding-top: 1rem;
+        width: 100%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+}
+
+@media (max-width: 280px){
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 1.6rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding-top: 1rem;
+        width: 100%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+    
+}

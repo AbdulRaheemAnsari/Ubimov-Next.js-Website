@@ -1,0 +1,212 @@
+.vehicles{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 6rem 4rem;
+    background-color: #151811;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.text_section{
+    width: 100%;
+    height: auto;
+}
+
+.text_section h1{
+    color: #E3E7DF;
+    font-family: 'Neue Montreal';
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.text_section p{
+    color: #A9ABA6;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    width: 48%;
+    letter-spacing: -0.1rem;
+    font-family: 'Neue montreal' sans-serif;
+}
+
+.car_cards_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+    padding: 4rem 0rem;
+}
+
+.joinustoday_button{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media (max-width: 1024px){
+
+    .vehicles{
+        padding: 6rem 3rem;
+    }
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 3.4rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+        width: 60%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .car_cards_section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 4rem 0rem;
+    }
+}
+
+@media (max-width: 895px) {
+    
+    .car_cards_section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 4rem 0rem;
+    }
+}
+
+@media (max-width: 770px) {
+    
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 3rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        width: 60%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+}
+
+@media (max-width: 700px){
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 2.4rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        width: 60%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .vehicles{
+        padding: 6rem 2rem;
+    }
+  
+}
+
+@media (max-width: 575px){
+   
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 2.2rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        width: 70%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+}
+
+@media (max-width: 480px){
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        width: 70%;
+        padding-top: 1rem;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+
+    .vehicles{
+        padding: 6rem 1rem;
+        
+    }
+  
+}
+
+@media (max-width: 365px){
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 1.8rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        width: 90%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+}
+
+@media (max-width: 280px){
+
+    .text_section h1{
+        color: #E3E7DF;
+        font-family: 'Neue Montreal';
+        font-size: 1.6rem;
+    }
+    
+    .text_section p{
+        color: #A9ABA6;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        width: 100%;
+        letter-spacing: -0.1rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+    
+}

@@ -1,0 +1,132 @@
+.secondtext_section{
+    width: 100%;
+    min-height: 55%;
+    padding: 10rem 0rem;
+    background-color: #E3E7DF;
+    padding: 12rem 4rem;
+}
+
+.secondtext_section h1{
+    font-weight: 600;
+    font-size: 6rem;
+    text-align: left;
+    line-height: 6rem;
+    color: #181816;
+    letter-spacing: -0.4rem;
+}
+
+
+
+@media (max-width: 1024px){
+
+    .secondtext_section{
+        width: 100%;
+        min-height: 55%;
+        padding: 10rem 0rem;
+        background-color: #E3E7DF;
+        padding: 12rem 3rem;
+    }
+    .secondtext_section h1{
+        font-weight: 600;
+        font-size: 5rem;
+        text-align: left;
+        line-height: 5rem;
+        color: #181816;
+        letter-spacing: -0.4rem;
+    }
+}
+
+@media (max-width: 700px){
+    .secondtext_section{
+        width: 100%;
+        min-height: 55%;
+        padding: 10rem 0rem;
+        background-color: #E3E7DF;
+        padding: 8rem 2rem;
+    }
+    .secondtext_section h1{
+        font-weight: 600;
+        font-size: 4rem;
+        text-align: left;
+        line-height: 4rem;
+        color: #181816;
+        letter-spacing: -0.3rem;
+    }
+}
+
+@media (max-width: 575px){
+
+    .secondtext_section{
+        width: 100%;
+        min-height: 55%;
+        padding: 10rem 0rem;
+        background-color: #E3E7DF;
+        padding: 6rem 2rem;
+    }
+    .secondtext_section h1{
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: left;
+        line-height: 3rem;
+        color: #181816;
+        letter-spacing: -0.2rem;
+    }
+}
+
+@media (max-width: 480px){
+
+    .secondtext_section{
+        width: 100%;
+        min-height: 55%;
+        padding: 10rem 0rem;
+        background-color: #E3E7DF;
+        padding: 4rem 1rem;
+    }
+    .secondtext_section h1{
+        font-weight: 600;
+        font-size: 2.4rem;
+        text-align: left;
+        line-height: 2.4rem;
+        color: #181816;
+        letter-spacing: -0.2rem;
+    }
+}
+
+@media (max-width: 365px){
+
+    .secondtext_section{
+        width: 100%;
+        min-height: 55%;
+        padding: 10rem 0rem;
+        background-color: #E3E7DF;
+        padding: 4rem 1rem;
+    }
+    .secondtext_section h1{
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: left;
+        line-height: 2.2rem;
+        color: #181816;
+        letter-spacing: -0.1rem;
+    }
+    
+}
+
+@media (max-width: 280px){
+
+    .secondtext_section{
+        width: 100%;
+        min-height: 55%;
+        padding: 10rem 0rem;
+        background-color: #E3E7DF;
+        padding: 4rem 1rem;
+    }
+    .secondtext_section h1{
+        font-weight: 600;
+        font-size: 1.6rem;
+        text-align: left;
+        line-height: 1.8rem;
+        color: #181816;
+        letter-spacing: -0.1rem;
+    }
+}

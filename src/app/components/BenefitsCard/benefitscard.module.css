@@ -1,0 +1,58 @@
+.benefits_card{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.benefits_card h1{
+    font-size: 1.6rem;
+    font-family: 'Neue Montreal';
+    font-weight: 600;
+    padding: 0.2rem 0rem;
+    padding-top: 0.8rem;
+    color: #E3E7DF;
+    border-bottom: 1px solid #E3E7DF;
+}
+
+.benefits_card p{
+    color: #A9ABA6;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 0.8rem;
+    font-family: 'Neue montreal' sans-serif;
+}
+
+
+
+@media (max-width: 1024px){
+
+    .benefits_card{
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .benefits_card p{
+        color: #A9ABA6;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        font-weight: 500;
+        padding-top: 0.8rem;
+        font-family: 'Neue montreal' sans-serif;
+    }
+}
+
+
+@media (max-width: 365px){
+
+    .benefits_card h1{
+        font-size: 1.4rem;
+        font-family: 'Neue Montreal';
+        font-weight: 600;
+        line-height: 2rem;
+        padding: 0.2rem 0rem;
+        padding-top: 0.8rem;
+        color: #E3E7DF;
+        border-bottom: 1px solid #E3E7DF;
+    }
+}

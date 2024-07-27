@@ -1,0 +1,43 @@
+.car_cards{
+    width: 34%;
+    height: auto;
+    background-color: #E3E7DF;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+
+}
+
+.car_cards h1{
+    color: #181816;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Neue Montreal';
+}
+
+
+@media (max-width: 1024px){
+    .car_cards{
+        width: 49%;
+        height: auto;
+        background-color: #E3E7DF;
+        border-radius: 0.3rem;
+        padding: 1rem 2rem;
+    
+    }
+}
+
+@media (max-width: 895px) {
+    
+    .car_cards{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #E3E7DF;
+        border-radius: 0.3rem;
+        padding: 1rem 2rem;
+    
+    }
+   
+}

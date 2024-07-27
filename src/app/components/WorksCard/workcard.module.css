@@ -1,0 +1,127 @@
+.WorkCard{
+    width: 40%;
+    height: auto;
+    /* background-color: bisque; */
+}
+
+.graphics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.graphics h1{
+    color: #D4D9CE;
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: 'Neue Montreal';
+}
+
+.graphics img   {
+    width: 120px;
+}
+.WorkCard p{
+    font-size: 1.8rem;
+    color: #181816;
+    font-family: 'Neue Montreal';
+    font-weight: 600;
+    line-height: 1.8rem;
+    padding-top: 0.4rem;
+}
+
+
+@media (max-width: 1024px){
+
+    .graphics h1{
+        color: #D4D9CE;
+        font-size: 6rem;
+        font-weight: 600;
+        font-family: 'Neue Montreal';
+    }
+    
+}
+
+@media (max-width: 800px){
+
+    .graphics h1{
+        color: #D4D9CE;
+        font-size: 5rem;
+        font-weight: 600;
+        font-family: 'Neue Montreal';
+    }
+    
+}
+
+@media (max-width: 770px) {
+   
+    .WorkCard{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+        /* background-color: bisque; */
+        border-bottom: 1px solid #c5c5c5;
+    }
+
+    .graphics h1{
+        color: #D4D9CE;
+        font-size: 6rem;
+        font-weight: 600;
+        font-family: 'Neue Montreal';
+    }
+
+    .WorkCard p{
+        font-size: 1.8rem;
+        width: 70%;
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-weight: 600;
+        line-height: 1.8rem;
+        padding-top: 0.4rem;
+    }
+    
+}
+
+
+@media (max-width: 365px){
+
+    .graphics h1{
+        color: #D4D9CE;
+        font-size: 4rem;
+        font-weight: 600;
+        font-family: 'Neue Montreal';
+    }
+    
+    .graphics img   {
+        width: 80px;
+    }
+    .WorkCard p{
+        font-size: 1.2rem;
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-weight: 600;
+        line-height: 1.2rem;
+        padding-top: 0.4rem;
+    }
+}
+
+@media (max-width: 280px){
+
+    .graphics h1{
+        color: #D4D9CE;
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: 'Neue Montreal';
+    }
+    
+    .graphics img   {
+        width: 60px;
+    }
+    .WorkCard p{
+        font-size: 0.9rem;
+        color: #181816;
+        font-family: 'Neue Montreal';
+        font-weight: 600;
+        line-height: 1rem;
+        padding-top: 0.4rem;
+    }
+}
