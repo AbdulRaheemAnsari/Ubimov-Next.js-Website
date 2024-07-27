@@ -7,9 +7,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const Fotter = () => {
-
-
-
     return (
         <div className={styles.fotter}>
             <div className={styles.top}>

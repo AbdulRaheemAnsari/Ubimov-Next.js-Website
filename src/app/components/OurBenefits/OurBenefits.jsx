@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ourbenefits.module.css';
 import { BenefitsCard } from '../BenefitsCard/BenefitsCard';
 import { Button2 } from '../Button2/Button2';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export const OurBenefits = () => {
 
