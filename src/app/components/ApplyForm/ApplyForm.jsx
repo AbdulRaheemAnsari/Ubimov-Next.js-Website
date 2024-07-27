@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './applyform.module.css';
 import { MdOutlineArrowOutward } from "react-icons/md";
+import Image from 'next/image';
 
 export const ApplyForm = () => {
 
@@ -94,7 +95,8 @@ export const ApplyForm = () => {
                     </form>
                 </div>
                 <div className={styles.image}>
-                    <img src="https://ubimov.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontact.df32b883.webp&w=828&q=100" alt="" />
+                    {/* <img src="" alt="" /> */}
+                    <Image src="https://ubimov.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcontact.df32b883.webp&w=828&q=100" />
                 </div>
             </div>
         </>

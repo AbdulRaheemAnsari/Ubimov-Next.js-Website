@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './workcard.module.css'
+import Image from 'next/image';
 
 export const WorkCard = ( { img, count, heading} ) => {
   return (
     <>
     <div className={styles.WorkCard}>
         <div className={styles.graphics}>
-            <img src={img} alt="" />
+            {/* <img src={img} alt="" /> */}
+            <Image src={img} />
             <h1>{count}</h1>
         </div>
         <p>{heading}</p>

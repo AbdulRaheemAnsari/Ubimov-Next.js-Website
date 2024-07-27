@@ -4,12 +4,14 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const Fotter = () => {
     return (
         <div className={styles.fotter}>
             <div className={styles.top}>
-                <img src="https://ubimov.com/_next/static/media/logolight.8deab4d3.svg" alt="" />
+                {/* <img src="https://ubimov.com/_next/static/media/logolight.8deab4d3.svg" alt="" /> */}
+                <Image src="https://ubimov.com/_next/static/media/logolight.8deab4d3.svg" />
                 <div className={styles.text}>
                     <div className={styles.contact}>
                         <h1>CONTACT</h1>

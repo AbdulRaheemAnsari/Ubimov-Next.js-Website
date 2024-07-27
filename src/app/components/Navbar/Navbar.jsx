@@ -6,6 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const Navbar = () => {
     const [menu, setMenu] = useState(false);
@@ -24,7 +25,8 @@ export const Navbar = () => {
         <>
             <nav className={styles.nav}>
                 <div className={styles.logo}>
-                    <img className='cursor-pointer' src="https://ubimov.com/_next/static/media/logo.f39f1d07.svg" alt="Logo" />
+                    {/* <img className='cursor-pointer' src="https://ubimov.com/_next/static/media/logo.f39f1d07.svg" alt="Logo" /> */}
+                    <Image className='cursor-pointer' src="https://ubimov.com/_next/static/media/logo.f39f1d07.svg" />
                 </div>
                 <div className={styles.menu}>
                     <div className={styles.lilinks}>
