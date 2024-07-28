@@ -13,21 +13,18 @@ import { Fotter } from "./components/Fotter/Fotter";
 import { About } from "./components/About/About";
 
 export default function Home() {
-  // const scrollRef = useRef(null);
 
-  // useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     const scroll = new LocomotiveScroll({
-  //       el: scrollRef.current,
-  //       smooth: true,
-  //       // Add other options as needed
-  //     });
+  useEffect(() => {
 
-  //     return () => {
-  //       if (scroll) scroll.destroy();
-  //     };
-  //   }
-  // }, []);
+    (
+      async () => {
+        const LocomotiveScroll = (await import('locomotive-scroll')).default;
+        const locomotiveScroll = new LocomotiveScroll();
+      }
+
+    )()
+
+  }, []);
 
   return (
     <div >
