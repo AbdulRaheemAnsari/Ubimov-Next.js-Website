@@ -12,26 +12,25 @@ import { ApplyForm } from "./components/ApplyForm/ApplyForm";
 import { Fotter } from "./components/Fotter/Fotter";
 import { About } from "./components/About/About";
 
-import dynamic from 'next/dynamic';
-
 export default function Home() {
-  const scrollRef = useRef(null);
+  // const scrollRef = useRef(null);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const scroll = new LocomotiveScroll({
-        el: scrollRef.current,
-        smooth: true,
-      });
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     const scroll = new LocomotiveScroll({
+  //       el: scrollRef.current,
+  //       smooth: true,
+  //       // Add other options as needed
+  //     });
 
-      return () => {
-        if (scroll) scroll.destroy();
-      };
-    }
-  }, []);
+  //     return () => {
+  //       if (scroll) scroll.destroy();
+  //     };
+  //   }
+  // }, []);
 
   return (
-    <div ref={scrollRef}>
+    <div >
       <Navbar />
       <Hero />
       <About />

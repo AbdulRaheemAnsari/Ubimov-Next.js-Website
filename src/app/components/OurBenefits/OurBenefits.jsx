@@ -17,8 +17,6 @@ export const OurBenefits = () => {
           <div className={styles.joinusbutton}>
             <Button2 text={"Join us today"} />
           </div>
-          {/* <img src="https://ubimov.com/_next/static/media/benefits.176e3004.svg" alt="" /> */}
-          {/* <Image src="https://ubimov.com/_next/static/media/benefits.176e3004.svg" alt='ourbenefits' /> */}
         </div>
         <div className={styles.cart_section}>
           <BenefitsCard img="/image/icon1.svg" heading={"Additional Income"} para={"Weekly income. The more you drive, the more income you will get - It's that simple."} />
