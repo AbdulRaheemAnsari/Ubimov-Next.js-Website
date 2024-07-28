@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
 import { Navbar } from "./components/Navbar/Navbar";
 import { Hero } from "./components/Hero/Hero";
 import { Benefits } from "./components/Benefits/Benefits";
